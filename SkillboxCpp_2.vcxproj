@@ -127,7 +127,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CoffeeGrinder.cpp" />
+    <ClCompile Include="Conditioner.cpp" />
+    <ClCompile Include="Dryer.cpp" />
+    <ClCompile Include="Fridge.cpp" />
+    <ClCompile Include="I_CommandHandler.cpp" />
+    <ClCompile Include="Electric.cpp" />
+    <ClCompile Include="Instrumentation.cpp" />
+    <ClCompile Include="I_Mechanical.cpp" />
+    <ClCompile Include="I_Object.cpp" />
+    <ClCompile Include="Juicer.cpp" />
+    <ClCompile Include="MeatGrinder.cpp" />
+    <ClCompile Include="Mixer.cpp" />
+    <ClCompile Include="Mop.cpp" />
+    <ClCompile Include="Shop.cpp" />
     <ClCompile Include="SkillboxCpp_2.cpp" />
+    <ClCompile Include="WashingMachine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoffeeGrinder.h" />
+    <ClInclude Include="Conditioner.h" />
+    <ClInclude Include="Dryer.h" />
+    <ClInclude Include="Fridge.h" />
+    <ClInclude Include="I_CommandHandler.h" />
+    <ClInclude Include="Electric.h" />
+    <ClInclude Include="Instrumentation.h" />
+    <ClInclude Include="Mechanical.h" />
+    <ClInclude Include="I_Object.h" />
+    <ClInclude Include="Juicer.h" />
+    <ClInclude Include="MeatGrinder.h" />
+    <ClInclude Include="Mixer.h" />
+    <ClInclude Include="Mop.h" />
+    <ClInclude Include="Shop.h" />
+    <ClInclude Include="WashingMachine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
